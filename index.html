@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section with Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!--first section-->
+
+    <section id="firstSection" class="content-section container py-5 mt-5">
+        <div class="row align-items-center mt-2">
+            <div class="col-md-6 text-content mb-4 mb-md-0">
+                <h6 class="award">AWARD WINNING</h6>
+                <h1 class="mt-3 mb-4 ">DIGITAL MARKETING AGENCY</h1>
+                <p class="mb-4">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at
+                    elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+                <a href="#herSec" class="hero-contact-us"><button class="btn btn-danger mt-2">CONTACT US</button></a>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0 image-content">
+                <img src="./images/Hero_section_IMG.jpg" alt="Digital Marketing Agency" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+   <!--second section-->
+
+    <section id="secondSection">
+        <div class="container mt-5 secondSection">
+            <h6 class="mb-4 WWD">WHAT WE DO</h6>
+        <div class="row">
+            <div class="col-md-6 text-content-1">
+                <h1 class="">SERVICES PROVIDE FOR YOU</h1>
+            </div>
+            <div class="col-md-6  text-content-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis sequi aliquam voluptas
+                    praesentium quisquam dolorum enim mollitia. Laborum commodi iure, consequuntur aut possimus eos
+                    ducimus unde exercitationem voluptates iusto.</p>
+            </div>
+        </div>
+        
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col">
+                    <div class="slide-container img-fluid">
+                        
+                        <div class="slides">
+
+                            <div class="slide active">
+                                <img src="./images/C.jpg" alt="" class="img-fluid">
+                                <div class="row hover-content">
+                                            <h2>Content for Slide 1</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, error.</p>
+                                            <a href="https://www.fylehq.com" target="_blank"><button class="btn btn-read-more">
+                                                Read More <span class="arrow">&rarr;</span>
+                                            </button></a>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <img src="./images/B.jpg" alt="" class="img-fluid">
+                                <div class="row hover-content">
+                                    <h2>Content for Slide 2</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, inventore!</p>
+                                    <a href="https://www.fylehq.com" target="_blank"><button class="btn btn-read-more">
+                                        Read More <span class="arrow">&rarr;</span>
+                                    </button></a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <img src="./images/G.jpg" alt="" class="img-fluid">
+                                <div class="row hover-content">
+                                    <h2>Content for Slide 3</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, obcaecati? 3</p>
+                                    <a href="https://www.fylehq.com" target="_blank"><button class="btn btn-read-more">
+                                        Read More <span class="arrow">&rarr;</span>
+                                    </button></a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <img src="./images/A.jpg" alt="" class="img-fluid">
+                                <div class="row hover-content">
+                                    <h2>Content for Slide 4</h2>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, voluptatum?/p>
+                                        <a href="https://www.fylehq.com" target="_blank"><button class="btn btn-read-more">
+                                            Read More <span class="arrow">&rarr;</span>
+                                        </button></a>
+                                    
+                                </div> 
+                            </div>
+
+                            <div class="slide">
+                                <img src="./images/E.jpg" alt="" class="img-fluid">
+                                <div class="row hover-content">
+                                    <h2>Content for Slide 5</h2>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, ipsam? 5</p>
+                                    <a href="https://www.fylehq.com" target="_blank" ><button class="btn btn-read-more">
+                                        Read More <span class="arrow">&rarr;</span>
+                                    </button></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <span class="next">&#10095;</span>
+                            <span class="prev">&#10094;</span>
+                        </div>
+
+                        <div class="dotsContainer">
+                            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+                            <div class="dot" attr="1" onclick="switchImage(this)"></div>
+                            <div class="dot" attr="2" onclick="switchImage(this)"></div>
+                            <div class="dot" attr="3" onclick="switchImage(this)"></div>
+                            <div class="dot" attr="4" onclick="switchImage(this)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+ <!--reminding section-->
+
+    <section id="remindingSection">
+        <div class="container mt-4">
+            <h6 class="mb-4 WWD text-center">WHY CHOOSE US</h6>
+            <h1 class="text-center mb-5 mt-3">OUR COMPANY GROWTH</h1>
+            <div class="row growthDetail text-center">
+
+                <div class="col-md-3 detail statisfied-customer">
+                    <img src="./images/target.jpeg"  style="width: 30px; height: 30px;" alt="heart">
+                    <h3>Clarified Vision and Target</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, labore!</p>
+                   
+                </div>
+                <div class="col-md-3 detail  days-of-operations">
+                    <img src="./images/performance.jpg"  style="width: 30px; height: 30px;" alt="clock">
+                    <h3>High Performance</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, reprehenderit!</p>
+                    
+                </div>
+                <div class="col-md-3 detail completed-projects">
+                    <img src="./images/security.png"  style="width: 30px; height: 30px;" alt="tick">
+                    <h3>Maintain Security</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, aspernatur?</p>
+                    
+                </div>
+                <div class="col-md-3 detail win-awards">
+                    <img src="./images/better.jpeg"  style="width: 30px; height: 30px;" alt="winner">
+                    <h3>Better Strategy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolorem!</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+      <!--third section-->
+    <section id="thirdSection" class="container mt-5 mb-5">
+        <h6 class="mb-4 WWD text-center">OUR PRODUCT</h6>
+            <h1 class="text-center mb-5 mt-3">WHY WE ARE THE BEST</h1>
+        
+           <div class="container mt-4 mb-4">
+        <div class="row">
+            <div class="col-md-6 img-container">
+                <img src="./images/con1.jpg" alt="Image 1" id="image1" class="img-fluid active">
+                <img src="./images/con2.jpg" alt="Image 2" id="image2" class="img-fluid">
+                <img src="./images/con3.jpg" alt="Image 3" id="image3" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-left content-container">
+                <div class="content-item active py-2" data-target="image1">
+                    <h4>Real-time data feeds </h4>
+                    <p>Fyle provides real-time data feeds and instant spend notifications for Visa and Mastercard credit cards.</p>
+                </div>
+                <div class="content-item py-2" data-target="image2">
+                    <h4>Automated policy checks</h4>
+                    <p>Fyle checks for policy violations as employees create expenses, before they are submitted.</p>
+                </div>
+                <div class="content-item py-2" data-target="image3">
+                    <h4>Project spend tracking</h4>
+                    <p>Fyle allows admins to allocate spend to different dimensions, such as projects, cost codes, locations, and departments.</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    </section>
+
+      <!--fourth section-->
+    <section id="fourthSection">
+        <div class="container mt-4 fourthSection">
+            <h6 class="mb-4 WWD text-center">EXPERTS GROWTHS</h6>
+            <h1 class="text-center mb-5 mt-3">OUR COMPANY GROWTH</h1>
+            <div class="row growthDetail text-center">
+
+                <div class="col-md-3 detail expertise statisfied-customer">
+                    <img src="./images/heart.jpg"  style="width: 16px; height: 16px;" alt="heart">
+                    <h1>199+</h1>
+                    <p>Satisfied Customers</p>
+                   
+                </div>
+                <div class="col-md-3 detail expertise  days-of-operations">
+                    <img src="./images/clock.jpg"  style="width: 16px; height: 16px;" alt="clock">
+                    <h1>1591+</h1>
+                    <p>Days Of Operations</p>
+                    
+                </div>
+                <div class="col-md-3 detail expertise completed-projects">
+                    <img src="./images/tick.jpg"  style="width: 16px; height: 16px;" alt="tick">
+                    <h1>283+</h1>
+                    <p>Completed Projects</p>
+                    
+                </div>
+                <div class="col-md-3 detail expertise win-awards">
+                    <img src="./images/winner.jpg"  style="width: 16px; height: 16px;" alt="winner">
+                    <h1>75+</h1>
+                    <p>Win Awards</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+       <!--fifth section-->
+
+    <section id="fivethSection mt-5">
+        <div class="container mt-4 fivethSection">
+            <h6 class="mb-4 WWD text-center">CLIENT FEEDBACK</h6>
+            <h1 class="text-center font-weight-bold mb-5 mt-3">PEOPLE SAY'S ABOUT US</h1>
+            <div class="row slogan">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <img src="./images/dq.png" alt="dq" style="width:90px;height:90px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, provident.</p>
+                    <img src="./images/dqFlip.png" alt="dq" style="width:90px;height:90px;">
+                    
+                </div>
+            </div>
+            <h5 class="text-center"><span class="text-danger font-weight-bold">Trump</span> - COO, AMERIMAR ENTERPRISE, INC</h5>
+        </div>
+    </section>
+
+     <!--six section-->
+
+    <section id="sixthSection">
+        <div class="col companyTag">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg1">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg2">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg3">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg4">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg5">
+            <img src="./images/triangle.png" alt="triangle" class="triangleimg6">
+        </div>        
+        <div class="row logo-row" style="width: 100%; min-height:320px; display: flex;justify-content: center;align-items: center;">
+
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <img src="./images/amazon.png" alt="Company Logo 1" class="logo">
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <img src="./images/BMW.png" alt="Company Logo 2" class="logo">
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <img src="./images/huwai.png" alt="Company Logo 3" class="logo">
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <img src="./images/harrison2.png" alt="Company Logo 4" class="logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
