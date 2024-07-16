@@ -22,7 +22,7 @@ This is a landing web application built with html,css, and js stack.
 
 ## visit via link
 
-- [link](https://raaz23.github.io/assessment/)
+- [link](https://raaz23.github.io/FLY_Assessment/)
 
 ## Author
 
