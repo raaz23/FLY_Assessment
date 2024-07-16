@@ -1,25 +1,28 @@
 
-# PDFTOOL
+# Langing Page Template
 
-I've revised and enhanced the ilovePDF website to deliver an even better user experience. This update coordinates each assistance consistently, guaranteeing you get the top tier PDF the board capacities straightforwardly through ilovePDF.
+This is a landing web application built with html,css, and js stack. 
 
 ## Features
 
-- **content:** rich content
-- **responsive:** Tt is fully responsive for all devices
+- **Convert PDFs**: Effortlessly switch between Word, Excel, PowerPoint, and image formats.
+- **Merge and Split PDFs**: Combine or divide your documents with ease.
+- **Edit and Annotate PDFs**: Enjoy smooth editing and annotation tools.
+- **Compress and Optimize PDFs**: Reduce file sizes while maintaining top quality.
+- **Secure and Sign PDFs**: Protect and authenticate your documents securely.
+- **OCR: Convert**: scanned documents into editable formats quickly.
+- **And much more!**
 
 ## Technologies Used
 
-## Tech Stack:
-- **Frontend**: React
-- **Build Tool**: Vite
-- **Hosting**: Netlify
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
+- **FRONTEND**: React 
+- **STLE**
+- **BOOTSRAP**
+- **JAVASCRIPT** 
 
 ## visit via link
 
-- [link](https://pdftoolconverter.netlify.app/)
+- [link](https://raaz23.github.io/assessment/)
 
 ## Author
 
@@ -31,22 +34,8 @@ Connect with Raju on social media:
 - [Instagram](https://www.instagram.com/raazveer30/)
 - [LinkedIn](https://www.linkedin.com/in/raju-yadav-148525283/)
 
-
-## Installation
-- **Clone the repo**: git clone https://github.com/your-username/pdf-tool.git
-- **Install dependencies**: npm install
-- 
-## Usage
-Start the server: npm run dev
-
-## Contribution
--Fork the repo.
--Create a branch: git checkout -b feature-branch.
--Commit changes: git commit -m 'Add new feature'.
--Push: git push origin feature-branch.
--Open a pull request.
-
+Contributing
 Contributions are welcome! If you have any suggestions, improvements, or issues, feel free to create a pull request or open an issue.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License 
